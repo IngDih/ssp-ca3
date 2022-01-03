@@ -1,0 +1,95 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<catalogue>
+    
+    <section name="short sleeved">
+        <product>
+            <item>
+                Black Short Sleeved Tee
+            </item>
+            <price>
+                14.99
+            </price>
+        </product>
+        
+        <product>
+            <item>
+                Grey Short Sleeved Tee
+            </item>
+            <price>
+                14.99
+            </price>
+        </product>
+        
+        <product>
+            <item>
+                White Short Sleeved Tee
+            </item>
+            <price>
+                14.99
+            </price>
+        </product>
+    </section> 
+    
+    <section name="long sleeved">
+        <product>
+            <item>
+                Black Long sleeved Tee
+            </item>
+            <price>
+                19.99
+            </price>
+        </product>
+        
+        <product>
+            <item>
+                Grey Long sleeved Tee
+            </item>
+            <price>
+                19.99
+            </price>
+        </product>
+        
+        <product>
+            <item>
+                White Long sleeved Tee
+            </item>
+            <price>
+                19.99
+            </price>
+        </product>
+    </section>
+    
+    <section name="hoodie">
+        <product>
+            <item>
+                Black Hoddie
+            </item>
+            <price>
+                24.99
+            </price>
+        </product>
+        
+        <product>
+            <item>
+                Grey Hoodie
+            </item>
+            <price>
+                24.99
+            </price>
+        </product>
+        
+        <product>
+            <item>
+                White Hoodie
+            </item>
+            <price>
+                24.99
+            </price>
+        </product>
+    </section>
+    
+</catalogue>
+
+
+
