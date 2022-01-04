@@ -10,9 +10,6 @@
             <price>
                 14.99
             </price>
-            <quantity>
-                500
-            </quantity>
         </product>
         
         <product>
@@ -21,10 +18,7 @@
             </item>
             <price>
                 14.99
-            </price>
-            <quantity>
-                500
-            </quantity>
+            </price>            
         </product>
         
         <product>
@@ -34,9 +28,6 @@
             <price>
                 14.99
             </price>
-            <quantity>
-                500
-            </quantity>
         </product>
     </section> 
     
@@ -48,9 +39,6 @@
             <price>
                 19.99
             </price>
-            <quantity>
-                500
-            </quantity>
         </product>
         
         <product>
@@ -59,10 +47,7 @@
             </item>
             <price>
                 19.99
-            </price>
-            <quantity>
-                500
-            </quantity>
+            </price>            
         </product>
         
         <product>
@@ -71,10 +56,7 @@
             </item>
             <price>
                 19.99
-            </price>
-            <quantity>
-                500
-            </quantity>
+            </price>            
         </product>
     </section>
     
@@ -85,10 +67,7 @@
             </item>
             <price>
                 24.99
-            </price>
-            <quantity>
-                500
-            </quantity>
+            </price>            
         </product>
         
         <product>
@@ -97,10 +76,7 @@
             </item>
             <price>
                 24.99
-            </price>
-            <quantity>
-                500
-            </quantity>
+            </price>            
         </product>
         
         <product>
@@ -109,10 +85,7 @@
             </item>
             <price>
                 24.99
-            </price>
-            <quantity>
-                500
-            </quantity>
+            </price>            
         </product>
     </section>
     

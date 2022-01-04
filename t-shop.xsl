@@ -9,22 +9,19 @@
                 <table border="1">
                     <tr bgcolor="#DBF0FF">
                         <th>Product</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
+                        <th>Price in €</th>
+                        <th>Buy on click</th>
                     </tr>
                     <xsl:for-each select="//product">
                         <tr>
                             <td>
                                 <xsl:value-of select="item" />
                             </td>
-                            <td>
-                                <xsl:value-of select="price" />
-                            </td>  
-                            <td>
-                                <xsl:value-of select="quantity" />
-                            </td>                            
                             <td align="center">
-                                <input type="text" value="0" size="1" />                               
+                                <xsl:value-of select="price" />
+                            </td>                                                   
+                            <td align="center">
+                                <input type="button" id="buyButton" onclick="alert('Purchase successful!')" value="BUY"></input>                             
                             </td>
                         </tr>
                     </xsl:for-each>
