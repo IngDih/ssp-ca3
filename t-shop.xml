@@ -10,6 +10,9 @@
             <price>
                 14.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
         
         <product>
@@ -19,6 +22,9 @@
             <price>
                 14.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
         
         <product>
@@ -28,6 +34,9 @@
             <price>
                 14.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
     </section> 
     
@@ -39,6 +48,9 @@
             <price>
                 19.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
         
         <product>
@@ -48,6 +60,9 @@
             <price>
                 19.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
         
         <product>
@@ -57,6 +72,9 @@
             <price>
                 19.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
     </section>
     
@@ -68,6 +86,9 @@
             <price>
                 24.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
         
         <product>
@@ -77,6 +98,9 @@
             <price>
                 24.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
         
         <product>
@@ -86,6 +110,9 @@
             <price>
                 24.99
             </price>
+            <quantity>
+                500
+            </quantity>
         </product>
     </section>
     

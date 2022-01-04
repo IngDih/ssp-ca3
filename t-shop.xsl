@@ -19,6 +19,9 @@
                             </td>
                             <td>
                                 <xsl:value-of select="price" />
+                            </td>  
+                            <td>
+                                <xsl:value-of select="quantity" />
                             </td>                            
                             <td align="center">
                                 <input type="text" value="0" size="1" />                               
