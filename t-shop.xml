@@ -1,92 +1,102 @@
-<?xml version = "1.0" encoding = "UTF-8" standalone="yes"?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue>
-    
-    <section name="short sleeved">
-        <product>
-            <item>
+  <product>
+    <item>
                 Black Short Sleeved Tee
             </item>
-            <price>
+    <price>
                 14.99
             </price>
-        </product>
-        
-        <product>
-            <item>
+    <quantity>
+              0
+          </quantity>
+  </product>
+  <product>
+    <item>
                 Grey Short Sleeved Tee
             </item>
-            <price>
+    <price>
                 14.99
-            </price>            
-        </product>
-        
-        <product>
-            <item>
+            </price>
+    <quantity>
+              0
+          </quantity>
+  </product>
+  <product>
+    <item>
                 White Short Sleeved Tee
             </item>
-            <price>
+    <price>
                 14.99
             </price>
-        </product>
-    </section> 
-    
-    <section name="long sleeved">
-        <product>
-            <item>
+    <quantity>
+                0
+            </quantity>
+  </product>
+  <product>
+    <item>
                 Black Long sleeved Tee
             </item>
-            <price>
+    <price>
                 19.99
             </price>
-        </product>
-        
-        <product>
-            <item>
+    <quantity>
+                0
+            </quantity>
+  </product>
+  <product>
+    <item>
                 Grey Long sleeved Tee
             </item>
-            <price>
+    <price>
                 19.99
-            </price>            
-        </product>
-        
-        <product>
-            <item>
+            </price>
+    <quantity>
+                0
+            </quantity>
+  </product>
+  <product>
+    <item>
                 White Long sleeved Tee
             </item>
-            <price>
+    <price>
                 19.99
-            </price>            
-        </product>
-    </section>
-    
-    <section name="hoodie">
-        <product>
-            <item>
+            </price>
+    <quantity>
+                0
+            </quantity>
+  </product>
+  <product>
+    <item>
                 Black Hoddie
             </item>
-            <price>
+    <price>
                 24.99
-            </price>            
-        </product>
-        
-        <product>
-            <item>
+            </price>
+    <quantity>
+                0
+            </quantity>
+  </product>
+  <product>
+    <item>
                 Grey Hoodie
             </item>
-            <price>
+    <price>
                 24.99
-            </price>            
-        </product>
-        
-        <product>
-            <item>
+            </price>
+    <quantity>
+                0
+            </quantity>
+  </product>
+  <product>
+    <item>
                 White Hoodie
             </item>
-            <price>
+    <price>
                 24.99
-            </price>            
-        </product>
-    </section>
-    
+            </price>
+    <quantity>
+                0
+            </quantity>
+  </product>
 </catalogue>
