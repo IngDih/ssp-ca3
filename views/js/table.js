@@ -1,5 +1,9 @@
-/* This exists so when the page is opened, the table shows up */
+/* This code was taken from the class. Additional
+methods were deleted, because they were not used. */
 
+
+/* This exists so when the page is opened, the table 
+with all the data shows up */
 function draw_table(){
     $("#results").empty(); //clear the results div
     $.getHTMLuncached = function(url) {
@@ -15,6 +19,7 @@ function draw_table(){
     $.getHTMLuncached("/get/html");
 };
 
-$(document).ready(function(){
-    draw_table();
-})
+/* Draws a table */
+$(document).ready(function (){
+	draw_table();
+});
