@@ -6,12 +6,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <table border="1" class="indent">
+
+                    <table id="catalogue" border="1" class="indent">
                         <thead>
                             <tr bgcolor="#DBF0FF">
                                 <th>Product</th>
                                 <th>Price in €</th>
-                                <th>Buy on click</th>
+                                <th>Quantity bought</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -23,13 +24,14 @@
                                     <td>
                                         <xsl:value-of select="price" />
                                     </td>
-                                    <td>
-                                        <input type="button" id="buyButton" onclick="alert('Purchase successful!')" value="BUY"></input>
+                                    <td id="qnt_{position()}">
+                                        <xsl:value-of select="quantity" />
                                     </td>
                                 </tr>
                             </xsl:for-each>
                         </tbody>
                     </table>                    
+                    
                 </div>                
             </div>
         </div>
