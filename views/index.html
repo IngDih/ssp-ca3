@@ -14,8 +14,7 @@
     <link href="css/mystylesheet.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/table.js"></script>
-    <script src="js/myscript.js"></script>
+    <script src="js/table.js"></script>    
 
 </head>
 
@@ -51,13 +50,17 @@
         <div class="row">
             <div class="text-center mt-5">
                 <h1>Welcome to T-Shop!</h1>
-                <p class="lead">Your online shopping for CCT Merch! </p>                
+                <p class="lead">Your online shopping for CCT Merch! </p>
+                <p>At this moment there are no T-shirts available for purchase, but we want to know which ones are the most popular between our costumers.
+                    So select the shirt you intend to buy and the quantity, and let us now which one is the most popular model so 
+                    we will have it available for you soon.
+                </p>               
             </div>
             <div id="results" class="col-lg-8 mb-5 order-1"></div>
             <div id="cart" class="col-lg-4 mb-5 order-2">
                 <form enctype="application/json" action="/post/json" method="post">
                     <div class="form-group">
-                        <label for="quantity">Select what do you want to buy:</label>
+                        <label for="quantity">Select which one do you intend to buy:</label>
                         <select class="form-control" name="sec_n">
                             <option value="0">Black Short Sleeved Tee</option>
                             <option value="1">Grey Short Sleeved Tee</option>
