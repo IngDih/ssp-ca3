@@ -1,4 +1,4 @@
-/* Required modules for this app to work, copied from class */
+/* Required modules for this app to work, copied from class (includes some Mikhail's comments) */
 
 const http = require('http'), //This module provides the HTTP server functionalities
     path = require('path'), //The path module provides utilities for working with file and directory paths
@@ -35,6 +35,7 @@ function JSONtoXML(filename, obj, cb) {
 
 router.post('/post/json', function (req, res) {
 
+    /* This function increases the overall number of sold items */
     function quantityIncrease(obj) {
 
         console.log(obj)
@@ -42,10 +43,10 @@ router.post('/post/json', function (req, res) {
         XMLtoJSON('t-shop.xml', function (err, result) {
             if (err) throw (err);
             console.log(JSON.stringify(result, null, "  "));
-            if (obj.Quantity != ''){
-                let oldQuantity = parseInt(result.catalogue.product[obj.sec_n].quantity);
-                let newQuantity = oldQuantity + parseInt(obj.Quantity);
-                result.catalogue.product[obj.sec_n].quantity = newQuantity.toString(); 
+            if (obj.Quantity != ''){           //the != '' prevents the number of becoming "NaN" in case an empty form is submitted.
+                let oldQuantity = parseInt(result.catalogue.product[obj.sec_n].quantity); // The input type is number but created as a String so parsing is needed.
+                let newQuantity = oldQuantity + parseInt(obj.Quantity); // New Quantity is the old quantity + the quantity input on the form 
+                result.catalogue.product[obj.sec_n].quantity = newQuantity.toString(); // The conversion back to string so it can be properly displayed.
             }           
 
             JSONtoXML('t-shop.xml', result, function(err){
