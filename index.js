@@ -11,7 +11,10 @@ const   http = require('http'), //This module provides the HTTP server functiona
 const router = express(); //Creates new instance 
 const server = http.createServer(router); //Creates server instance
 
-router.get('/', function(req, res) {
+router.use(express.static(path.resolve(__dirname, 'views'))); //Use the views folder to serve the file
+
+
+router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type' : 'text/html'}); 
     
