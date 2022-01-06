@@ -1,4 +1,4 @@
-/* Required modules for this app to work, copied from class (includes some Mikhail's comments) */
+/* Required modules for this app to work, copied from class (includes some Mikhail Timofeev's comments) */
 
 const http = require('http'), //This module provides the HTTP server functionalities
     path = require('path'), //The path module provides utilities for working with file and directory paths
@@ -11,7 +11,7 @@ const http = require('http'), //This module provides the HTTP server functionali
 const router = express(); //Creates new instance 
 const server = http.createServer(router); //Creates server instance
 
-router.use(express.static(path.resolve(__dirname, 'views'))); //Use the views folder to serve the file
+router.use(express.static(path.resolve(__dirname, 'views'))); //Uses the views folder to serve the file
 router.use(express.urlencoded({ extended: true })); //We allow the data sent from the client to be encoded in a URL targeting our end point
 router.use(express.json()); //We include support for JSON
 
@@ -35,7 +35,8 @@ function JSONtoXML(filename, obj, cb) {
 
 router.post('/post/json', function (req, res) {
 
-    /* This function increases the overall number of sold items */
+    /* This function increases the overall number of desired items 
+    everytime the form is filled with a number between 1-10 */
     function quantityIncrease(obj) {
 
         console.log(obj)
