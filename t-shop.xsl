@@ -12,7 +12,7 @@
                             <tr bgcolor="#DBF0FF">
                                 <th>Product</th>
                                 <th>Price in €</th>
-                                <th>Quantity</th>
+                                <th>Total requested</th>
                             </tr>
                         </thead>
                         <tbody>
