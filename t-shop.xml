@@ -7,7 +7,7 @@
     <price>
                 14.99
             </price>
-    <quantity>0</quantity>
+    <quantity>11</quantity>
   </product>
   <product>
     <item>
@@ -16,9 +16,7 @@
     <price>
                 14.99
             </price>
-    <quantity>
-              0
-          </quantity>
+    <quantity>6</quantity>
   </product>
   <product>
     <item>
@@ -27,9 +25,7 @@
     <price>
                 14.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>2</quantity>
   </product>
   <product>
     <item>
@@ -38,7 +34,7 @@
     <price>
                 19.99
             </price>
-    <quantity>0</quantity>
+    <quantity>5</quantity>
   </product>
   <product>
     <item>
@@ -47,9 +43,7 @@
     <price>
                 19.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>3</quantity>
   </product>
   <product>
     <item>
@@ -58,9 +52,7 @@
     <price>
                 19.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>0</quantity>
   </product>
   <product>
     <item>
@@ -69,9 +61,7 @@
     <price>
                 24.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>0</quantity>
   </product>
   <product>
     <item>
@@ -80,9 +70,7 @@
     <price>
                 24.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>3</quantity>
   </product>
   <product>
     <item>
