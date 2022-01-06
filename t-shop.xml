@@ -7,9 +7,7 @@
     <price>
                 14.99
             </price>
-    <quantity>
-              0
-          </quantity>
+    <quantity>0</quantity>
   </product>
   <product>
     <item>
@@ -40,9 +38,7 @@
     <price>
                 19.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>0</quantity>
   </product>
   <product>
     <item>
@@ -95,8 +91,6 @@
     <price>
                 24.99
             </price>
-    <quantity>
-                0
-            </quantity>
+    <quantity>0</quantity>
   </product>
 </catalogue>
