@@ -1,5 +1,14 @@
 /* Basic Stylesheet */
 
+#header {
+    background-image: url(../img/backgroundheader.jpg);
+    background-color: #DBF0FF;
+    padding: 90px 0px 90px 0px;
+    border: #fff solid 5px;
+}
+
+
+
 html {
     position: relative;
     min-height: 100%;
